@@ -9,7 +9,7 @@ class TemplateEngine(BaseTemplateEngine):
     """A template engine aware of pyramid"""
 
     def __init__(self, *args, **kwargs):
-        """Do nothing. Almost all the mechanism is deleged to pyramid.renderers"""
+        """Do nothing. Almost all the mechanism is delegated to pyramid.renderers"""
 
     def render(self, name=None, renderer=None, template=None, **kwargs):
         renderer = renderer or template
